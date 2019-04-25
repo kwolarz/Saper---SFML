@@ -5,7 +5,7 @@ Obiektowa gra Saper stworzona przy pomocy biblioteki SFML.
 ```
 class Wynik
 ```
-Zawiera w sobie zmienne opisujące sprawdzające czy nastąpiła wygrana oraz czas pojedyńczej gry.
+Zawiera w sobie zmienne sprawdzające czy nastąpiła wygrana oraz czas pojedyńczej gry.
 
 
 ```
@@ -25,7 +25,7 @@ Główna klasa odpowiadająca za mechanikę gry.
 ```
 bool ustawMine()
 ```
-Ustawia minę w wylosowanej pozycji, sprawdza czy otoczenie miny nie wychodzi poza zakres.
+Ustawia minę na wylosowanej pozycji, sprawdza czy otoczenie miny nie wychodzi poza zakres.
 
 ```
 void losujPozycje()
@@ -40,7 +40,7 @@ Obsługuje obiekty biblioteki SFML, generuje okno gry.
 ```
 bool checkWin()
 ```
-Sprawdza po każdym naciśnięciu lewego przycisku myszy nastąpiła wygrana.
+Sprawdza po każdym naciśnięciu lewego przycisku myszy czy nastąpiła wygrana.
 
 ```
 void show();
@@ -55,7 +55,7 @@ Wyświetla wynik gry.
 ```
 void play()
 ```
-Główna funkcja odpowiadająca za gre, zawiera pętlę obsługującą Eventy, rysuje obiekty na ekranie.
+Główna funkcja odpowiadająca za grę, zawiera pętlę obsługującą Eventy, rysuje obiekty na ekranie.
 
 ```
 class MainMenu
@@ -70,7 +70,7 @@ Rysuje tekst w oknie.
 ```
 void MoveUp(), void MoveDown()
 ```
-Obsługują przesuwanie się po elementach menu głównego.
+Obsługują nawigację po elementach menu głównego.
 
 ```
 void showMenu()
